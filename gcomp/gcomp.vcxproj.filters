@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{681c92c4-e3b4-431f-bcbd-a18f56334441}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="DlgForms.txt">
+      <Filter>Docs</Filter>
+    </Text>
+    <Text Include="gnugpl.eng.txt">
+      <Filter>Docs</Filter>
+    </Text>
+    <Text Include="gnugpl.rus.txt">
+      <Filter>Docs</Filter>
+    </Text>
+    <Text Include="Interfaces.txt">
+      <Filter>Docs</Filter>
+    </Text>
+    <Text Include="license.txt">
+      <Filter>Docs</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CommonFunctions.cpp" />
+    <ClCompile Include="gcomp.cpp" />
+    <ClCompile Include="Task.cpp" />
+    <ClCompile Include="TaskHelp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Task.h" />
+  </ItemGroup>
+</Project>

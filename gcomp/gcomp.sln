@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GCompDLL", "DLL\GCompDLL.vcxproj", "{F2544E6E-0E60-49D9-B1A1-7F5F90BE1256}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gcomp", "gcomp.vcxproj", "{DA73C8DD-A41A-4528-A3FE-703D770EDBDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2544E6E-0E60-49D9-B1A1-7F5F90BE1256}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F2544E6E-0E60-49D9-B1A1-7F5F90BE1256}.Debug|Win32.Build.0 = Debug|Win32
+		{F2544E6E-0E60-49D9-B1A1-7F5F90BE1256}.Release|Win32.ActiveCfg = Release|Win32
+		{F2544E6E-0E60-49D9-B1A1-7F5F90BE1256}.Release|Win32.Build.0 = Release|Win32
+		{F2544E6E-0E60-49D9-B1A1-7F5F90BE1256}.Template|Win32.ActiveCfg = Release|Win32
+		{F2544E6E-0E60-49D9-B1A1-7F5F90BE1256}.Template|Win32.Build.0 = Release|Win32
+		{DA73C8DD-A41A-4528-A3FE-703D770EDBDE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DA73C8DD-A41A-4528-A3FE-703D770EDBDE}.Debug|Win32.Build.0 = Debug|Win32
+		{DA73C8DD-A41A-4528-A3FE-703D770EDBDE}.Release|Win32.ActiveCfg = Release|Win32
+		{DA73C8DD-A41A-4528-A3FE-703D770EDBDE}.Release|Win32.Build.0 = Release|Win32
+		{DA73C8DD-A41A-4528-A3FE-703D770EDBDE}.Template|Win32.ActiveCfg = Template|Win32
+		{DA73C8DD-A41A-4528-A3FE-703D770EDBDE}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://vv1000070146pc:8080/tfs/accounting
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DLL\\GCompDLL.vcxproj
+		SccProjectName1 = DLL
+		SccLocalPath1 = DLL
+	EndGlobalSection
+EndGlobal
